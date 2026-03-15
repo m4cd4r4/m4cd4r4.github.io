@@ -55,7 +55,7 @@
       "status": "live",
       "url": "https://cosmos-collective.com.au",
       "repo": "https://github.com/m4cd4r4/cosmos-collective-v2",
-      "image": { "type": "asset", "src": "images/cosmos-collective.gif" },
+      "image": { "type": "asset", "src": "images/cosmos-collective.png" },
       "tech": ["Next.js", "Three.js", "TypeScript", "NASA APIs"],
       "highlights": ["3D vortex solar system model", "JWST imagery across 6 wavelength filters", "2,600+ Kepler exoplanet catalogue"],
       "year": 2025
