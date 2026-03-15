@@ -9,7 +9,7 @@
       "featured": true,
       "status": "live",
       "url": "https://bloodclarity.com",
-      "repo": "https://github.com/m4cd4r4/BloodClarity-ML",
+      "repo": "https://github.com/m4cd4r4/BloodClarity",
       "image": { "type": "asset", "src": "images/bloodclarity.gif" },
       "tech": ["Next.js", "Python", "TensorFlow", "FastAPI"],
       "highlights": ["98.8% biomarker extraction accuracy", "Browser-based ML — zero data upload", "Clinical-grade language in plain English"],
