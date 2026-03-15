@@ -169,7 +169,7 @@
       "id": "swanflow",
       "name": "SwanFlow",
       "tagline": "Real-time traffic monitoring for Perth with ESP32-CAM hardware",
-      "description": "End-to-end traffic intelligence system for Perth roads. ESP32-CAM hardware running FOMO object detection counts vehicles in real time. Interactive map shows live congestion across Swan Valley routes.",
+      "description": "End-to-end traffic intelligence system for Perth roads. ESP32-CAM hardware running FOMO object detection counts vehicles in real time. Interactive map shows live congestion across Perth arterial roadways.",
       "category": "iot",
       "featured": false,
       "status": "live",
@@ -177,7 +177,7 @@
       "repo": null,
       "image": { "type": "asset", "src": "images/swanflow.png" },
       "tech": ["ESP32", "Python", "FOMO", "Next.js", "Leaflet"],
-      "highlights": ["Custom ESP32-CAM hardware nodes", "FOMO object detection at the edge", "Live congestion map across Swan Valley"],
+      "highlights": ["Custom ESP32-CAM hardware nodes", "FOMO object detection at the edge", "Live congestion map across Perth arterial roadways"],
       "year": 2024
     },
     {
