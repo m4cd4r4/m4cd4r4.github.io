@@ -340,8 +340,9 @@ ul, ol { list-style: none; }
 
 .entry-image {
   width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: top;
   display: block;
   /* Desaturated until hover/expanded — image tells story on interaction */
   filter: saturate(0.35) brightness(0.9);
@@ -357,7 +358,7 @@ ul, ol { list-style: none; }
 /* Placeholder for entries with no image */
 .entry-image-placeholder {
   width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   display: flex;
   align-items: center;
   justify-content: flex-start;
