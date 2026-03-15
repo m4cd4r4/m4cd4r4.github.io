@@ -85,7 +85,7 @@
       "status": "active",
       "url": "https://m4cd4r4.github.io/PortPilot/",
       "repo": "https://github.com/m4cd4r4/PortPilot",
-      "image": { "type": "thum", "src": "https://m4cd4r4.github.io/PortPilot/" },
+      "image": { "type": "asset", "src": "images/portpilot.png" },
       "tech": ["Electron", "JavaScript", "Node.js"],
       "highlights": ["Visual port dashboard", "Kill processes without the terminal", "One-click service launcher"],
       "year": 2024
@@ -145,7 +145,7 @@
       "status": "live",
       "url": "https://mcp-forge-black.vercel.app",
       "repo": "https://github.com/m4cd4r4/mcpwrap",
-      "image": { "type": "thum", "src": "https://mcp-forge-black.vercel.app" },
+      "image": { "type": "asset", "src": "images/mcpwrap.png" },
       "tech": ["TypeScript", "Node.js", "OpenAPI", "MCP"],
       "highlights": ["Zero code generation", "Runtime spec parsing", "Claude Desktop compatible"],
       "year": 2025
@@ -160,7 +160,7 @@
       "status": "live",
       "url": "https://agent-trace-sage.vercel.app",
       "repo": "https://github.com/m4cd4r4/recstitch",
-      "image": { "type": "thum", "src": "https://agent-trace-sage.vercel.app" },
+      "image": { "type": "asset", "src": "images/recstitch.png" },
       "tech": ["TypeScript", "Playwright", "Chrome Extension"],
       "highlights": ["AI-resilient selectors that survive redesigns", "Exports to Playwright, Stagehand, Browser Use", "Visual recording timeline"],
       "year": 2025
