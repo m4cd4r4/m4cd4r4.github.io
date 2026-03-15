@@ -266,6 +266,7 @@ ul, ol { list-style: none; }
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-auto-flow: dense; /* backfill gaps left by 2-col featured entries */
   gap: 0; /* spacing done via entry padding + rules */
   padding-block: var(--sp-6) var(--sp-24);
 }
@@ -345,7 +346,7 @@ ul, ol { list-style: none; }
   object-position: top;
   display: block;
   /* Desaturated until hover/expanded — image tells story on interaction */
-  filter: saturate(0.35) brightness(0.9);
+  filter: saturate(0.55) brightness(0.95);
   transition: filter 250ms var(--ease-out), transform 350ms var(--ease-out);
 }
 
