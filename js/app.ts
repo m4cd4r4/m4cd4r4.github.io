@@ -143,11 +143,21 @@ function buildEntry(
   // Figure number
   const figNum = String(index + 1).padStart(2, "0");
 
+  // Status badge
+  const statusLabel = project.status === "live" ? "Live ↗" : project.status === "active" ? "Active" : "Archive";
+  const statusHtml = `<span class="entry-status entry-status--${escAttr(project.status)}" aria-label="Status: ${escAttr(project.status)}">${statusLabel}</span>`;
+
   // Image or placeholder
   const imageHtml = buildImageHtml(project);
 
-  // Tech tags
-  const techHtml = project.tech
+  // Tech preview (first 2, always visible)
+  const techPreviewHtml = project.tech.slice(0, 2)
+    .map((t) => `<span class="tech-tag">${escHtml(t)}</span>`)
+    .join("");
+
+  // Tech tags in details (remaining)
+  const detailTech = project.tech.length > 2 ? project.tech.slice(2) : project.tech;
+  const techHtml = detailTech
     .map((t) => `<span class="tech-tag">${escHtml(t)}</span>`)
     .join("");
 
@@ -155,15 +165,19 @@ function buildEntry(
   const actionsHtml = buildActionsHtml(project);
 
   article.innerHTML = `
-    <p class="entry-figure" aria-label="Figure ${figNum}">Fig. ${figNum}</p>
+    <div class="entry-header">
+      <p class="entry-figure" aria-label="Figure ${figNum}">Fig. ${figNum}</p>
+      ${statusHtml}
+    </div>
     ${imageHtml}
     <p class="entry-category" style="color: ${catColor}">${escHtml(cat?.label ?? project.category)}</p>
     <h2 class="entry-title">${escHtml(project.name)}</h2>
     <p class="entry-tagline">${escHtml(project.tagline)}</p>
+    <div class="entry-tech-preview" aria-label="Technologies used">${techPreviewHtml}</div>
     <div class="entry-details" aria-hidden="true">
       <div class="entry-details-inner">
         <p class="entry-description">${escHtml(project.description)}</p>
-        <div class="entry-tech" aria-label="Technologies used">${techHtml}</div>
+        ${techHtml ? `<div class="entry-tech" aria-label="More technologies">${techHtml}</div>` : ""}
         <div class="entry-actions">${actionsHtml}</div>
       </div>
     </div>
@@ -183,7 +197,9 @@ function buildEntry(
   article.addEventListener("keydown", (e) => {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
-      article.classList.toggle("expanded");
+      const isExpanded = article.classList.toggle("expanded");
+      const details = article.querySelector<HTMLElement>(".entry-details");
+      if (details) details.setAttribute("aria-hidden", String(!isExpanded));
     }
   });
 
