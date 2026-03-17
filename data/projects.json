@@ -106,66 +106,6 @@
       "year": 2024
     },
     {
-      "id": "green-h2",
-      "name": "Green H2 Catalyst",
-      "tagline": "Computational screening for earth-abundant OER catalysts",
-      "description": "20-document research synthesis combined with Bayesian optimisation and SHAP analysis to screen iridium-free catalysts for green hydrogen production. CaWO4 phase engineering, XGBoost models, Streamlit dashboard.",
-      "category": "science",
-      "featured": false,
-      "status": "live",
-      "url": "https://green-h2-catalyst.streamlit.app/",
-      "repo": "https://github.com/m4cd4r4/green-h2-catalyst-research",
-      "image": { "type": "thum", "src": "https://green-h2-catalyst.streamlit.app/" },
-      "tech": ["Python", "Streamlit", "XGBoost", "Bayesian Optimisation"],
-      "highlights": ["Iridium-free catalyst discovery", "Bayesian optimisation pipeline", "SHAP interpretability analysis"],
-      "year": 2024
-    },
-    {
-      "id": "erdos-straus",
-      "name": "Erdős–Straus Gateway",
-      "tagline": "Algebraic covering system verified across 10¹⁰ primes",
-      "description": "A finite algebraic covering system for the Erdős–Straus conjecture. Gateway decompositions via divisors of N². Current progress: 455M primes verified to 10¹⁰, max A = 359. Two hard primes in [2B, 10B] resolved via discrete-log coverage analysis.",
-      "category": "maths",
-      "featured": false,
-      "status": "active",
-      "url": null,
-      "repo": "https://github.com/m4cd4r4/erdos-straus-gateway",
-      "image": { "type": "asset", "src": "images/erdos-straus.png" },
-      "tech": ["Python", "Number Theory", "Computational Verification"],
-      "highlights": ["455M primes verified to 10¹⁰", "Algebraic covering via N² divisors", "Discrete-log coverage for hard primes"],
-      "year": 2024
-    },
-    {
-      "id": "mcpwrap",
-      "name": "mcpwrap",
-      "tagline": "Turn any REST API into an MCP server in 10 seconds",
-      "description": "Runtime OpenAPI wrapper that converts any REST API into a Model Context Protocol server. Point at any OpenAPI spec and get a working MCP server — no code generation, no config files, no restarts.",
-      "category": "devtools",
-      "featured": false,
-      "status": "live",
-      "url": "https://mcp-forge-black.vercel.app",
-      "repo": "https://github.com/m4cd4r4/mcpwrap",
-      "image": { "type": "asset", "src": "images/mcpwrap.png" },
-      "tech": ["TypeScript", "Node.js", "OpenAPI", "MCP"],
-      "highlights": ["Zero code generation", "Runtime spec parsing", "Claude Desktop compatible"],
-      "year": 2025
-    },
-    {
-      "id": "recstitch",
-      "name": "RecStitch",
-      "tagline": "Record browser actions. Export an AI-resilient automation script.",
-      "description": "Records browser actions and exports automation scripts that survive UI redesigns. Uses AI-resilient selectors (ARIA labels, test IDs, role-based) instead of fragile CSS paths. Exports to Playwright, Stagehand, and Browser Use.",
-      "category": "devtools",
-      "featured": false,
-      "status": "live",
-      "url": "https://agent-trace-sage.vercel.app",
-      "repo": "https://github.com/m4cd4r4/recstitch",
-      "image": { "type": "asset", "src": "images/recstitch.png" },
-      "tech": ["TypeScript", "Playwright", "Chrome Extension"],
-      "highlights": ["AI-resilient selectors that survive redesigns", "Exports to Playwright, Stagehand, Browser Use", "Visual recording timeline"],
-      "year": 2025
-    },
-    {
       "id": "swanflow",
       "name": "SwanFlow",
       "tagline": "Real-time traffic monitoring for Perth with ESP32-CAM hardware",
@@ -178,21 +118,6 @@
       "image": { "type": "asset", "src": "images/swanflow.png" },
       "tech": ["ESP32", "Python", "FOMO", "Next.js", "Leaflet"],
       "highlights": ["Custom ESP32-CAM hardware nodes", "FOMO object detection at the edge", "Live congestion map across Perth arterial roadways"],
-      "year": 2024
-    },
-    {
-      "id": "freedoom-hd",
-      "name": "FreeDoom HD",
-      "tagline": "4× AI-upscaled texture pack — 2,553 assets enhanced with Real-ESRGAN",
-      "description": "Every texture in FreeDoom upscaled 4× using Real-ESRGAN. 2,553 assets processed — walls, floors, sprites, UI elements. Free and open source, compatible with GZDoom. Because good games deserve good textures.",
-      "category": "fun",
-      "featured": false,
-      "status": "active",
-      "url": null,
-      "repo": "https://github.com/m4cd4r4/freedoom-hd",
-      "image": { "type": "asset", "src": "images/freedoom-hd.png" },
-      "tech": ["Python", "Real-ESRGAN", "GZDoom"],
-      "highlights": ["2,553 assets upscaled 4×", "Real-ESRGAN neural upscaling", "GZDoom compatible, open source"],
       "year": 2024
     },
     {
@@ -215,13 +140,12 @@
     "health": { "label": "Health & Medical", "hue": 15 },
     "finance": { "label": "Finance & Legal", "hue": 75 },
     "science": { "label": "Science", "hue": 250 },
-    "maths": { "label": "Mathematics", "hue": 300 },
     "devtools": { "label": "Developer Tools", "hue": 155 },
     "iot": { "label": "IoT & Hardware", "hue": 195 },
     "fun": { "label": "Fun & Personal", "hue": 340 }
   },
   "meta": {
     "lastUpdated": "2026-03-15",
-    "totalProjects": 14
+    "totalProjects": 9
   }
 }
