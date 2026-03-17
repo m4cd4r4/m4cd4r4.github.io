@@ -95,7 +95,7 @@
       "name": "Asset Tracker",
       "tagline": "Real-time inventory management across multiple locations",
       "description": "Glassmorphism web UI for tracking EUC assets across locations. Excel seed data, barcode scanning, assignment history, and E2E test coverage. Built for Perth enterprise environments.",
-      "category": "finance",
+      "category": "devtools",
       "featured": false,
       "status": "active",
       "url": "https://asset-tracker-m4cd4r4s-projects.vercel.app/app",
