@@ -138,8 +138,8 @@
     {
       "id": "focloir",
       "name": "Cupla Focail",
-      "tagline": "Irish-English dictionary — 2,003 curated entries, fada-insensitive search",
-      "description": "A free Irish-English dictionary with 2,003 hand-curated entries across 22 categories. Fada-insensitive search so you can type 'ceol' and find 'ceol'. Available as a web app, embeddable widget, REST API, and npm package.",
+      "tagline": "Irish-English dictionary — 100,000+ entries, fada-insensitive search",
+      "description": "A free Irish-English dictionary with 100,000+ entries across 35 categories. Fada-insensitive search so you can type 'ceol' and find 'ceol'. Available as a web app, embeddable widget, REST API, and npm package.",
       "category": "fun",
       "featured": false,
       "status": "live",
@@ -147,7 +147,7 @@
       "repo": "https://github.com/m4cd4r4/cupla-focail",
       "image": { "type": "asset", "src": "images/focloir.png" },
       "tech": ["TypeScript", "Next.js", "npm package"],
-      "highlights": ["2,003 hand-curated entries", "Fada-insensitive search", "Available as API, widget, and npm package"],
+      "highlights": ["100,000+ entries", "Fada-insensitive search", "Available as API, widget, and npm package"],
       "year": 2024
     }
   ],
