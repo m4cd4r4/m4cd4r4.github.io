@@ -20,7 +20,7 @@
       "name": "Assay",
       "tagline": "COBOL documentation generator — 5-pass AI analysis pipeline",
       "description": "Upload COBOL source files and get a complete structured knowledge base in minutes. 5-pass AI pipeline using Claude Opus 4.6 with 1M token context — parses divisions, sections, data items, COPY/CALL chains, and dead code. 52/52 E2E tests passing.",
-      "category": "devtools",
+      "category": "finance",
       "featured": true,
       "status": "live",
       "url": "https://assay.software",
