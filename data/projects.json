@@ -10,10 +10,25 @@
       "status": "live",
       "url": "https://bloodclarity.com",
       "repo": "https://github.com/m4cd4r4/BloodClarity",
-      "image": { "type": "asset", "src": "images/bloodclarity.gif" },
+      "image": { "type": "asset", "src": "images/bloodclarity-thumb.png" },
       "tech": ["Next.js", "Python", "TensorFlow", "FastAPI"],
       "highlights": ["98.8% biomarker extraction accuracy", "Browser-based ML — zero data upload", "Clinical-grade language in plain English"],
       "year": 2025
+    },
+    {
+      "id": "assay",
+      "name": "Assay",
+      "tagline": "COBOL documentation generator — 5-pass AI analysis pipeline",
+      "description": "Upload COBOL source files and get a complete structured knowledge base in minutes. 5-pass AI pipeline using Claude Opus 4.6 with 1M token context — parses divisions, sections, data items, COPY/CALL chains, and dead code. 52/52 E2E tests passing.",
+      "category": "devtools",
+      "featured": true,
+      "status": "live",
+      "url": "https://assay.software",
+      "repo": null,
+      "image": { "type": "asset", "src": "images/assay-thumb.png" },
+      "tech": ["Next.js", "TypeScript", "Claude API", "COBOL"],
+      "highlights": ["5-pass AI analysis with 1M token context", "Parses COPY/CALL chains and dead code", "52/52 E2E tests passing"],
+      "year": 2026
     },
     {
       "id": "trutina",
@@ -145,7 +160,7 @@
     "fun": { "label": "Fun & Personal", "hue": 340 }
   },
   "meta": {
-    "lastUpdated": "2026-03-15",
-    "totalProjects": 9
+    "lastUpdated": "2026-03-18",
+    "totalProjects": 10
   }
 }
