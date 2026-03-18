@@ -85,7 +85,7 @@
       "status": "live",
       "url": "https://brightclause.com",
       "repo": "https://github.com/m4cd4r4/BrightClause",
-      "image": { "type": "asset", "src": "images/brightclause.gif" },
+      "image": { "type": "asset", "src": "images/brightclause-thumb.png" },
       "tech": ["Next.js", "Python", "Claude API", "PostgreSQL"],
       "highlights": ["Obligation extraction and risk scoring", "Entity relationship visualisation", "Plain English clause summaries"],
       "year": 2025
